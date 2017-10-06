@@ -39,6 +39,9 @@ namespace ProjetoCadastro
            cpf = Console.ReadLine();
 
 
+           Console.Clear();
+
+
            Console.WriteLine("Nome: "+ nome);
            Console.WriteLine("endereco: "+ endereco);
            Console.WriteLine("cidade: " + cidade);
@@ -50,11 +53,7 @@ namespace ProjetoCadastro
            Console.WriteLine("rg: " + rg);
            Console.WriteLine("cpf: " + cpf);
 
-
-
-
-
-        }         
+        }    
 
         
     }
